@@ -44,7 +44,7 @@ A SAN I/O driven, open-source decentralized network infrastructure that can deli
 
 ## Architecture
 
-Each node in the network is embeded with Geo-Location data inside its ID. A Node ID consists of multiple layers, and every node will have multiple routing tables, each is correspond to a layer.
+Each node in the network is embedded with Geo-Location data inside its ID. A Node ID consists of multiple layers, and every node will have multiple routing tables, each corresponding to a layer.
 
   - Layer1: Geo1 Table (Zone level)
   - Layer2: Geo2 Table (Country level)
@@ -52,7 +52,7 @@ Each node in the network is embeded with Geo-Location data inside its ID. A Node
   - Layer4: Inner Group Index Table (DC level)
 
 TODO: Graphics instead of bulletlist
-TODO: an ARCHITECTURE.md with general information about: Project, System structure, Design philosophy, ...
+TODO: ARCHITECTURE.md with general information about: Project, System structure, Design philosophy, ...
 ## Getting started
 
 ```bash
@@ -97,7 +97,7 @@ In node2
 > send hello
 ```
 
-Now, in node1 will received message from node2
+Now, node1 will receive a message from node2
 
 ```shell
 Node 1 to room 1: hello
@@ -112,7 +112,7 @@ Available commands:
 
 #### Running manual discovery multi nodes in multi devices
 
-It also can start chat-example in multi nodes and connect over LAN or Internet
+It can also start chat-example in multi nodes and connect over LAN or Internet
 
 Start node1:
 
@@ -141,7 +141,7 @@ For more information, you can join our [Discord channel](https://discord.gg/tJ6d
 
 ## Roadmap
 
-First version will be released together with [Media Server](https://github.com/8xFF/decentralized-media-server) at end of 2023.
+The first version will be released together with [Media Server](https://github.com/8xFF/decentralized-media-server) at the end of 2023.
 
 Details on our roadmap can be seen [TBA]().
 
